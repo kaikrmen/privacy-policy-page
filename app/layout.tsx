@@ -5,7 +5,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
-  title: "Movie Review App",
+  title: "AstraInsight",
   description: "Discover and share your thoughts on movies",
     generator: 'v0.dev'
 }

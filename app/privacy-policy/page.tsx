@@ -176,7 +176,7 @@ export default function PrivacyPolicyPage() {
             <section className="mb-8">
               <h2 className="text-2xl font-semibold mb-4 text-zinc-100">Introduction</h2>
               <p>
-                Welcome to our movie review application. We are committed to protecting your privacy and being
+                Welcome to AstraInsight. We are committed to protecting your privacy and being
                 transparent about how we use your data. This privacy policy explains how we collect, use, and protect
                 your information when you use our application.
               </p>
