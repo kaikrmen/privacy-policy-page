@@ -36,7 +36,7 @@ export default function PrivacyPolicyPage() {
             <section className="mb-8">
               <h2 className="text-2xl font-semibold mb-4 text-zinc-100">Introducción</h2>
               <p>
-                Bienvenido a nuestra aplicación de reseñas de películas. Nos comprometemos a proteger tu privacidad y a
+                Bienvenido a AstraInsight. Nos comprometemos a proteger tu privacidad y a
                 ser transparentes sobre cómo utilizamos tus datos. Esta política de privacidad explica cómo recopilamos,
                 utilizamos y protegemos tu información cuando utilizas nuestra aplicación.
               </p>
