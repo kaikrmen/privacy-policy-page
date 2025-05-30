@@ -326,7 +326,7 @@ export default function PrivacyPolicyPage() {
                 <strong>Email:</strong> chiguiritoslabs@gmail.com
               </p>
             </section>
-
+ 
             <div className="mt-12 pt-8 border-t border-zinc-800">
               <p className="text-center text-sm text-zinc-400">
                 © {new Date().getFullYear()} Chiguritos Labs. All rights
