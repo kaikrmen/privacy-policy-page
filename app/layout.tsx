@@ -1,14 +1,14 @@
-import "./globals.css"
-import { Inter } from "next/font/google"
-import { ThemeProvider } from "@/components/theme-provider"
+import "./globals.css";
+import { Inter } from "next/font/google";
+import { ThemeProvider } from "@/components/theme-provider";
 
-const inter = Inter({ subsets: ["latin"] })
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "AstraInsight",
-  description: "Discover and share your thoughts on movies",
-    generator: 'v0.dev'
-}
+  title: "Plin",
+  description:
+    "Dolar, Venezuela, Bolivar, Exchange Rate, Dolar Paralelo, Dolar Oficial",
+};
 
 import { ReactNode } from "react";
 
@@ -21,5 +21,5 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         </ThemeProvider>
       </body>
     </html>
-  )
+  );
 }
