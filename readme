@@ -1,18 +1,21 @@
+```markdown
 # 📄 Privacy Policy Page
 
 This project includes a dedicated **Privacy Policy** page located at:
 
 ```
-[http://localhost:3000/privacy-policy]
+
+[http://localhost:3000/privacy-policy](http://localhost:3000/privacy-policy)
+
 ```
 
-This page is created using the **App Router** in Next.js 13+ and supports static or dynamic content as needed.
+This page is built using the **App Router** in Next.js 13+ and supports **static or dynamic content** as needed.
 
 ---
 
 ## 🌐 Multilingual Notice
 
-This privacy policy page can be written in **English**, **Spanish**, or both, depending on your target audience or localization strategy.
+The privacy policy page can be written in **English**, **Spanish**, or both, depending on your target audience or localization strategy.
 
 ---
 
@@ -23,8 +26,8 @@ This privacy policy page can be written in **English**, **Spanish**, or both, de
 /app
 └── privacy-policy
 └── page.tsx     → Main privacy policy page
-/layout.tsx               → App layout
-/globals.css              → Global styles
+/layout.tsx          → App layout
+/globals.css         → Global styles
 
 ```
 
@@ -42,12 +45,12 @@ You can update the text by editing:
 
 We recommend keeping a clear structure with headings such as:
 
-- Introduction
-- Information Collected
-- Usage of Data
-- User Rights
-- Cookies Policy
-- Contact
+- **Introduction**
+- **Information Collected**
+- **Usage of Data**
+- **User Rights**
+- **Cookies Policy**
+- **Contact**
 
 ---
 
@@ -63,7 +66,7 @@ This is handled in:
 
 ````
 
-With this content:
+With the following content:
 
 ```tsx
 import { redirect } from 'next/navigation';
@@ -77,13 +80,14 @@ export default function Home() {
 
 ## 📌 Notes
 
-* You can integrate your real privacy content in Markdown, JSON, CMS or API.
-* For production, remember to update all legal texts based on your business type and jurisdiction.
+* You can integrate your real privacy content in **Markdown**, **JSON**, **CMS**, or **API**.
+* For production, always update the legal texts according to your **business type** and **jurisdiction**.
 
 ---
 
-## 💬 License & Disclaimer / Licencia y Descargo
+## 💬 License & Disclaimer
 
-This is a template. Make sure to consult with a legal advisor for valid and compliant privacy policies according to your local laws (e.g. **GDPR**, **CCPA**, **LGPD**).
+This is a **template**.
+Please consult with a **legal advisor** to ensure that your privacy policy complies with the applicable laws (e.g. **GDPR**, **CCPA**, **LGPD**).
 
 ---
